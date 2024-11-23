@@ -1,6 +1,7 @@
 <template>
     <div class="">
         <p>database</p>
+        <p>stickers</p>
         <nuxt-link to="/" class="word-link">
             <p>home</p>
         </nuxt-link>
