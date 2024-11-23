@@ -1,5 +1,5 @@
 <template>
-    <div class="h-100">
+    <div class="h-100 home-page">
         <div class="h-100 home-cont">
             <div class="h-100 star-cont flex flex-col">
                 <div class="flex flex-row space-between h-50 align-center first-row-star">
@@ -46,7 +46,7 @@
         </div>
         <div class="about-btn">
             <nuxt-link to="/about" class="word-link" exact-active-class="active">
-                <p>about</p>
+                <p>Jordan Furr</p>
             </nuxt-link>
         </div>
     </div>
