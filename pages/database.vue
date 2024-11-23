@@ -10,5 +10,10 @@
                 <p>about</p>
             </nuxt-link>
         </div>
+        <div class="jordan-btn">
+            <nuxt-link to="/" class="word-link" exact-active-class="active">
+                <p>Jordan Furr</p>
+            </nuxt-link>
+        </div>
     </div>
 </template>

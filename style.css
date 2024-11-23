@@ -12,6 +12,7 @@ body {
     width: 100vw;
     margin: 0;
     padding: 0;
+    font-size: 16px;
     line-height: 1.15;
     font-family: 'Inter';
     scroll-behavior: smooth !important;
@@ -704,6 +705,22 @@ h6 {
 
 /* PROJECT SPECIFIC */
 
+h1 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 20.8px;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+h4 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
 .home-page {
     overflow-y: hidden;
 }
@@ -754,8 +771,14 @@ h6 {
 
 .about-btn {
     position: absolute;
-    top: 24px;
-    left: 24px;
+    top: 1rem;
+    right: 1rem;
+}
+
+.jordan-btn {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
 }
 
 .white {
@@ -768,6 +791,14 @@ h6 {
 
 .blue {
     background-color: var(--blue);
+}
+
+.menu-page {
+    margin-top: 2rem;
+}
+
+.description p {
+    margin-bottom: 1rem;
 }
 
 .copied {
@@ -823,6 +854,17 @@ h6 {
 @media (max-width: 550px) {
     .home-cont {
         height: 82%;
+    }
+    .menu-page {
+        flex-direction: column;
+    }
+    .nav-half-cont {
+        width: 50%;
+        margin: auto;
+    }
+    .cont-half-cont {
+        width: 100%;
+        padding: 1.5rem 1.5rem;
     }
 }
 
