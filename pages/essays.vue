@@ -3,7 +3,7 @@
         <div class="w-33 nav-half-cont">
             <div class="w-100 pv2 pb3 borderbox">
                 <div class="h-20">
-                    <img class="w-100" src="/img/blue-jordanfurr.png" alt="">
+                    <img class="w-100" src="/img/navy-jordanfurr.png" alt="">
                 </div>
                 <div class="flex flex-col space-between h-75">
                 </div>
