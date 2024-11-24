@@ -37,8 +37,11 @@
         <div class="w-66 ph6 borderbox cont-half-cont">
             <div class="description">
                 <h2>news</h2>
+                <h5>24 November 2024</h5>
+                <p>Jordan is rewatching the series, <em>Pose</em>.</p>
+                <br>
                 <h5>23 November 2024</h5>
-                <p>Jordan is currently based in Paris, France.</p>
+                <p>Jordan is based in Paris, France.</p>
             </div>
         </div>
         <div class="about-btn">

@@ -724,17 +724,20 @@ h1 {
 
 h2 {
     font-size: 20.8px;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     font-weight: bold;
 }
 
 h4 {
     margin-top: 2rem;
     margin-bottom: 0.5rem;
+    font-weight: normal;
 }
 
 h5 {
-    margin-bottom: 0.5rem;
+    font-weight: normal;
+    margin-bottom: 0.75rem;
+    color: #295f9c;
 }
 
 .home-page {
@@ -803,10 +806,12 @@ h5 {
 
 .active.essays-nav {
     color: #ff1795 !important;
+    
 }
 
-.active.web-nav {
-    color: #d70000 !important;
+.active.about {
+    color: #ff1795 !important;
+    font-weight: normal !important;
 }
 
 
@@ -875,6 +880,31 @@ h5 {
 .copied {
     margin-left: 10px;
     color: white;
+}
+
+.bt {
+    color: #7ab31f;
+    text-decoration: none;
+}
+
+.getintouch {
+    color: #7ab31f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.subtitle {
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.j-list p {
+    margin-bottom: 0.25rem;
 }
 
 
