@@ -36,14 +36,16 @@
         </div>
         <div class="w-66 ph6 borderbox cont-half-cont">
             <div class="description">
-                <h2>projects and Art</h2>
-                <p>Jordan has launched and collaborated on a number of ineresting projects.</p>
-                <h4>STAR Laces</h4>
-                <p>description</p>
-                <h4>SAMEWAVE7</h4>
-                <p>description</p>
-                <h4>Green Butterfly</h4>
-                <p>description</p>
+                <h2>projects</h2>
+                <p>Jordan has launched and collaborated on a number of projects.</p>
+                <p class="subtitle">FEATURED</p>
+                <div class="j-list">
+                    <p>STAR Laces</p>
+                    <p>SAMEWAVE7</p>
+                    <p>Postal Bandaid</p>
+                    <p>Green Butterfly</p>
+                </div>
+                
             </div>
         </div>
         <div class="about-btn">

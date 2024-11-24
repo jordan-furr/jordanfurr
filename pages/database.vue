@@ -38,6 +38,17 @@
             <div class="description">
                 <h2>database</h2>
                 <p>Welcome to things I like!</p>
+                <p class="subtitle">LIBRARY</p>
+                <div class="j-list">
+                    <p>Stickers</p>
+                    <p>Imagery</p>
+                    <p>Works of Art</p>
+                    <p>Quotes</p>
+                    <p>Frames</p>
+                    <p>Songs</p>
+                    <p>Books</p>
+                    <p>Movies</p>
+                </div>
             </div>
         </div>
         <div class="about-btn">

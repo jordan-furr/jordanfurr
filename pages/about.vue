@@ -1,7 +1,7 @@
 <template>
-    <div class="essays menu-page flex flew-row h-100">
-        <div class="w-33 nav-half-cont h-100">
-            <div class="w-100 pv2 pb3 borderbox h-100">
+    <div class="essays menu-page flex flew-row">
+        <div class="w-33 nav-half-cont">
+            <div class="w-100 pv2 pb3 borderbox">
                 <div class="sidestar-cont">
                     <img class="sidestar-image" src="/img/pink-jordanfurr.png" alt="JF in a STAR">
                 </div>
@@ -37,12 +37,12 @@
         <div class="w-66 ph6 borderbox cont-half-cont">
             <div class="description">
                 <h2>about</h2>
-                <p>Jordan Ellis Furr is a xxxtra multi passionate creator.</p>
+                <p>Jordan Ellis Furr is a xxxtra multi passionate creator! He would love to hear from you to discuss, become penpals, collaborate, dream up a website, or something else. Please don't hesitate to send him an email.</p>
                 <p>jordan@jordanfurr.com</p>
             </div>
         </div>
         <div class="about-btn">
-            <nuxt-link to="/about" class="word-link">
+            <nuxt-link to="/about" class="word-link about" exact-active-class="active">
                 <p>about</p>
             </nuxt-link>
         </div>

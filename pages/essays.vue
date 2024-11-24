@@ -37,7 +37,7 @@
         <div class="w-66 ph6 borderbox cont-half-cont">
             <div class="description">
                 <h2>essays</h2>
-                <p>Jordan Furr writes memoir-theory, blending personal narrative with modern social theory and history.
+                <p>Jordan writes memoir-theory, blending personal narrative with modern social theory and history.
                     Introduced to the genre while minoring in American Culture at the University of Michigan, Jordan’s
                     work reflects a sharp, reflective voice.</p>
                 <p><em>Texting on a Horse</em>, a debut essay collection set to be completed in
@@ -45,6 +45,7 @@
                     method, moving to France mid-highschool; transitioning socially and medically in college despite
                     resistance; and six years on Testosterone, considering temporary frames of Transness.
                 </p>
+                <!--
                 <h4>2024</h4>
                 <p>...</p>
                 <h4>2019</h4>
@@ -53,6 +54,7 @@
                 <p>...</p>
                 <h4>2017</h4>
                 <p>...</p>
+                -->
             </div>
         </div>
         <div class="about-btn">
