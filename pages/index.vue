@@ -45,12 +45,12 @@
             </div>
         </div>
         <div class="about-btn">
-            <nuxt-link to="/about" class="word-link" exact-active-class="active">
+            <nuxt-link to="/about" class="word-link">
                 <p>about</p>
             </nuxt-link>
         </div>
         <div class="jordan-btn">
-            <nuxt-link to="/" class="word-link" exact-active-class="active">
+            <nuxt-link to="/" class="word-link">
                 <p>Jordan Furr</p>
             </nuxt-link>
         </div>
