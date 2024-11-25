@@ -809,11 +809,15 @@ h5 {
     
 }
 
+.active.web-nav {
+    color: #d70000 !important;
+    
+}
+
 .active.about {
     color: #ff1795 !important;
     font-weight: normal !important;
 }
-
 
 .about-btn {
     position: absolute;
@@ -906,6 +910,70 @@ a:hover {
 .j-list p {
     margin-bottom: 0.25rem;
 }
+
+
+.news-dash {
+    width: 100%;
+    border-bottom: 2px solid #295f9c;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 132.194px;
+    overflow-y: scroll;
+    border-top: 2px solid #295f9c;
+    border-right: 2px solid #295f9c;
+}
+
+.news-dash::-webkit-scrollbar {
+    width: 39px;
+    display: block;
+}
+
+.news-dash::-webkit-scrollbar-track {
+    background: lightblue;
+    
+}
+
+.news-dash::-webkit-scrollbar-thumb {
+    background: #295f9c;
+}
+
+.news-dash::-webkit-scrollbar-thumb:hover {
+    background: #712109;
+}
+
+.news-dash p {
+    margin-bottom: 0;
+}
+
+.news-row {
+    display: flex;
+    border-top: none;
+    border-left: 2px solid #295f9c;
+    border-right: 2px solid #295f9c ;
+    border-bottom: 2px solid #295f9c ;
+    
+}
+
+.news-row:last-child {
+    border-bottom: none;
+}
+
+.news-item{
+    padding: 12px;
+    flex: 1;
+}
+
+.news-item:hover {
+    background-color: #712109;
+    color: white
+}
+
+
+
+
+
+
+
 
 
 @media (max-width: 1400px) {
