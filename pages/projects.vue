@@ -37,12 +37,11 @@
         <div class="w-66 ph6 borderbox cont-half-cont">
             <div class="description">
                 <h2>projects</h2>
-                <p>Jordan has launched and collaborated on a number of projects.</p>
+                <p>Jordan has launched and collaborated on a variety of projects.</p>
                 <p class="subtitle">FEATURED</p>
                 <div class="j-list">
                     <p>STAR Laces</p>
                     <p>SAMEWAVE7</p>
-                    <p>Postal Bandaid</p>
                     <p>Green Butterfly</p>
                 </div>
                 

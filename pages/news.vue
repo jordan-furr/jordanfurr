@@ -37,11 +37,15 @@
         <div class="w-66 ph6 borderbox cont-half-cont">
             <div class="description">
                 <h2>news</h2>
-                <h5>24 November 2024</h5>
-                <p>Jordan is rewatching the series, <em>Pose</em>.</p>
-                <br>
-                <h5>23 November 2024</h5>
-                <p>Jordan is based in Paris, France.</p>
+                <div class="flex flex-col news-dash">
+                    <div v-for="(news, index) in newsArray" :key="index" class="news-row"
+                        :class="{ 'last-row': index === newsArray.length - 1 }">
+                        <p class="news-item" @click="toggleHover(index)" :class="{ 'hovered': hoverIndex === index }"
+                            @mouseleave="handleMouseLeaveWeb(index)">
+                            {{ hoverIndex === index ? news[1] : news[0] }}
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="about-btn">
@@ -56,3 +60,28 @@
         </div>
     </div>
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            hoverIndex: -1,
+            isOpen: new Array(3).fill(false),
+            newsArray: [
+                ["Nov 25, 2024", "Jordan completed this news tool!"],
+                ["Nov 24, 2024", "Jordan is rewatching the series, Pose."],
+                ["Nov 23, 2024", "Jordan completed his star animation."],
+                ["Nov 10, 2024", "Jordan is now based in Paris, France."]
+            ]
+        };
+    },
+    methods: {
+        toggleHover(index) {
+            this.hoverIndex = this.hoverIndex === index ? -1 : index;
+        },
+        handleMouseLeaveWeb(index) {
+            this.hoverIndex = - 1;
+        }
+    }
+};
+</script>
