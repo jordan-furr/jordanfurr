@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-66 ph6 borderbox cont-half-cont">
+        <div class="w-66 pl5 pr3 borderbox cont-half-cont">
             <div class="description">
                 <h2>news</h2>
                 <div class="flex flex-col news-dash">
@@ -66,8 +66,10 @@ export default {
     data() {
         return {
             hoverIndex: -1,
-            isOpen: new Array(3).fill(false),
+            isOpen: new Array(6).fill(false),
             newsArray: [
+                ["Dec 1, 2024", "Jordan is switching from Nuxt to Next.js / React."],
+                ["Nov 30, 2024", "Jordan went to the movies by himself for the first time."],
                 ["Nov 25, 2024", "Jordan completed this news tool!"],
                 ["Nov 24, 2024", "Jordan is rewatching the series, Pose."],
                 ["Nov 23, 2024", "Jordan completed his star animation."],

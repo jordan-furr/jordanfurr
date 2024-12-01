@@ -3,7 +3,7 @@
         <div class="w-33 nav-half-cont">
             <div class="w-100 pv2 pb3 borderbox">
                 <div class="sidestar-cont">
-                    <img class="sidestar-image" src="/img/pink-jordanfurr.png" alt="JF in a STAR">
+                    <img class="sidestar-image" src="/img/pink-jordanfurr.png" alt="JF in a STAR" quality="80" format="webp">
                 </div>
                 <div class="sidebarnav pr6 borderbox flex flex-col text-center">
                     <div>
@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-66 ph6 borderbox cont-half-cont">
+        <div class="w-66 pl5 pr3 borderbox cont-half-cont">
             <div class="description">
                 <h2>about</h2>
                 <p>Jordan Ellis Furr is a xxxtra multi passionate creator! He would love to hear from you to discuss, become penpals, collaborate, dream up a website, or something else. Please don't hesitate to send him an email.</p>

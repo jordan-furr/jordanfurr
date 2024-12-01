@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-66 ph6 borderbox cont-half-cont">
+        <div class="w-66 pl5 pr3 borderbox cont-half-cont">
             <div class="description">
                 <h2>database</h2>
                 <p>Welcome to things I like!</p>

@@ -3,7 +3,7 @@
         <div class="w-33 nav-half-cont">
             <div class="w-100 pv2 pb3 borderbox">
                 <div class="sidestar-cont">
-                    <img class="sidestar-image" src="/img/red-jordanfurr.png" alt="JF in a STAR">
+                    <img class="sidestar-image" src="/img/red-jordanfurr.png" alt="JF in a STAR" quality="80" format="webp">
                 </div>
                 <div class="sidebarnav pr6 borderbox flex flex-col text-center">
                     <div>
@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-66 ph6 borderbox cont-half-cont">
+        <div class="w-66 pl5 pr3 borderbox cont-half-cont">
             <div class="description">
                 <h2>web</h2>
                 <p>Jordan indpendently designs and builds websites at his practice <a class="bt" href="https://badtaste.dev/" target="_">bad taste</a>. Since 2019, he has worked with a diverse range of clients, drawing on expertise gained from earning a Bachelor of Computer Science (2017–2021).</p>

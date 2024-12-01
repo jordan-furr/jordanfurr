@@ -15,14 +15,8 @@ body {
     font-size: 16px;
     line-height: 1.15;
     font-family: 'Inter';
-    scroll-behavior: smooth !important;
-}
-
-body {
-    min-height: 100vh;
-    min-width: 100vw;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    scroll-behavior: auto;
+    overflow-x: hidden; 
 }
 
 p {
@@ -339,8 +333,12 @@ h6 {
     padding-left: 2rem;
 }
 
-.pl7 {
+.pl6 {
     padding-left: 3rem;
+}
+
+.pl7 {
+    padding-left: 4rem;
 }
 
 .pr1 {
@@ -707,7 +705,7 @@ h6 {
     overflow: auto;
 }
 
-.borderbox{
+.borderbox {
     box-sizing: border-box;
 }
 
@@ -741,7 +739,9 @@ h5 {
 }
 
 .home-page {
+    position: relative;
     overflow-y: hidden;
+    height: 100vh;
 }
 
 .home-cont {
@@ -779,7 +779,7 @@ h5 {
     width: 36%;
 }
 
-.word-link  {
+.word-link {
     color: black;
     text-decoration: none;
 }
@@ -806,12 +806,12 @@ h5 {
 
 .active.essays-nav {
     color: #ff1795 !important;
-    
+
 }
 
 .active.web-nav {
     color: #d70000 !important;
-    
+
 }
 
 .active.about {
@@ -820,15 +820,17 @@ h5 {
 }
 
 .about-btn {
-    position: absolute;
+    position: fixed;
     top: 2rem;
     right: 2rem;
+    z-index: 10;
 }
 
 .jordan-btn {
-    position: absolute;
+    position: fixed;
     top: 2rem;
     left: 2rem;
+    z-index: 10;
 }
 
 .white {
@@ -845,6 +847,7 @@ h5 {
 
 .menu-page {
     margin-top: 1rem;
+    overflow-y: scroll !important;
 }
 
 .description {
@@ -911,54 +914,23 @@ a:hover {
     margin-bottom: 0.25rem;
 }
 
-
-.news-dash {
-    width: 100%;
-    border-bottom: 2px solid #295f9c;
-    box-sizing: border-box;
-    cursor: pointer;
-    height: 132.194px;
-    overflow-y: scroll;
-    border-top: 2px solid #295f9c;
-    border-right: 2px solid #295f9c;
-}
-
-.news-dash::-webkit-scrollbar {
-    width: 39px;
-    display: block;
-}
-
-.news-dash::-webkit-scrollbar-track {
-    background: lightblue;
-    
-}
-
-.news-dash::-webkit-scrollbar-thumb {
-    background: #295f9c;
-}
-
-.news-dash::-webkit-scrollbar-thumb:hover {
-    background: #712109;
-}
-
 .news-dash p {
     margin-bottom: 0;
 }
 
 .news-row {
     display: flex;
-    border-top: none;
+    border-top: 2px solid #295f9c;
     border-left: 2px solid #295f9c;
-    border-right: 2px solid #295f9c ;
-    border-bottom: 2px solid #295f9c ;
-    
+    border-right: 2px solid #295f9c;
+
 }
 
 .news-row:last-child {
-    border-bottom: none;
+    border-bottom: 2px solid #295f9c;;
 }
 
-.news-item{
+.news-item {
     padding: 12px;
     flex: 1;
 }
@@ -973,7 +945,46 @@ a:hover {
 
 
 
+@media (min-width: 1000px) {
+    .news-dash {
+        overflow-y: scroll;
+        height: 131.194px;
+        width: 100%;
+        border-top: 2px solid #295f9c;
+        border-bottom: 2px solid #295f9c;
+        cursor: pointer;
+        border-right: 2px solid #295f9c;
+    }
 
+    .news-row {
+        border-top: none;
+        border-bottom: 2px solid #295f9c;
+    }
+
+    .news-row:last-child {
+        border-bottom: none;
+    }
+
+    
+
+    .news-dash::-webkit-scrollbar {
+        width: 26px;
+        display: block;
+    }
+
+    .news-dash::-webkit-scrollbar-track {
+        background: lightblue;
+
+    }
+
+    .news-dash::-webkit-scrollbar-thumb {
+        background: #295f9c;
+    }
+
+    .news-dash::-webkit-scrollbar-thumb:hover {
+        background: #712109;
+    }
+}
 
 
 @media (max-width: 1400px) {
@@ -986,6 +997,7 @@ a:hover {
     .home-cont {
         width: 100%;
     }
+
     .star-cont {
         width: 60%;
     }
@@ -1001,9 +1013,11 @@ a:hover {
     .menu-page {
         margin-top: 4rem;
     }
+
     .sidestar-image {
         padding-right: 0;
     }
+
     .pr6 {
         padding-right: 0;
     }
@@ -1036,16 +1050,20 @@ a:hover {
     .home-cont {
         height: 82%;
     }
+
     .menu-page {
         flex-direction: column;
     }
+
     .nav-half-cont {
         width: 70%;
         margin: auto;
     }
+
     .sidestar-cont {
         margin-bottom: 0;
     }
+
     .cont-half-cont {
         width: 100%;
         padding: 1.5rem 1.5rem;
@@ -1067,12 +1085,12 @@ a:hover {
 
     .first-row-star {
         height: 33%;
-        align-items:end;
+        align-items: end;
     }
 
     .second-row-star {
         height: 30%;
-        align-items:end;
+        align-items: end;
     }
 
     .about-btn {
@@ -1090,6 +1108,6 @@ a:hover {
     }
 
     .home-page {
-        height: 80%;
+        height: 750px;
     }
 }
