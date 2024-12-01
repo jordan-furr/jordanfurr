@@ -16,7 +16,13 @@ body {
     line-height: 1.15;
     font-family: 'Inter';
     scroll-behavior: auto;
-    overflow-x: hidden; 
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 p {
@@ -715,10 +721,6 @@ h6 {
 
 /* PROJECT SPECIFIC */
 
-*::-webkit-scrollbar { 
-    display: none;  
-}
-
 h1 {
     font-size: 16px;
     font-weight: normal;
@@ -743,7 +745,7 @@ h5 {
 }
 
 .home-page {
-    height: 90vh;
+    overflow-y: hidden;
 }
 
 .home-cont {
@@ -825,14 +827,12 @@ h5 {
     position: fixed;
     top: 2rem;
     right: 2rem;
-    z-index: 10;
 }
 
 .jordan-btn {
     position: fixed;
     top: 2rem;
     left: 2rem;
-    z-index: 10;
 }
 
 .white {
@@ -849,7 +849,6 @@ h5 {
 
 .menu-page {
     margin-top: 1rem;
-    overflow-y: scroll !important;
 }
 
 .description {
