@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-66 pl6 pr3 borderbox cont-half-cont">
+        <div class="w-66 pl5 pr3 borderbox cont-half-cont">
             <div class="description">
                 <h2>essays</h2>
                 <p>Jordan writes memoir-theory, blending personal narrative with modern social theory and history.
