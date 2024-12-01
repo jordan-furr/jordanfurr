@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-66 ph6 borderbox cont-half-cont">
+        <div class="w-66 pl6 pr3 borderbox cont-half-cont">
             <div class="description">
                 <h2>web</h2>
                 <p>Jordan indpendently designs and builds websites at his practice <a class="bt" href="https://badtaste.dev/" target="_">bad taste</a>. Since 2019, he has worked with a diverse range of clients, drawing on expertise gained from earning a Bachelor of Computer Science (2017–2021).</p>
