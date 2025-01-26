@@ -3,7 +3,7 @@
         <div class="w-33 nav-half-cont">
             <div class="w-100 pv2 pb3 borderbox">
                 <div class="sidestar-cont">
-                    <img class="sidestar-image" src="/img/pink-jordanfurr.png" alt="JF in a STAR" quality="80" format="webp">
+                    <img class="sidestar-image" src="/img/green-jordanfurr.png" alt="JF in a STAR">
                 </div>
                 <div class="sidebarnav pr6 borderbox flex flex-col text-center">
                     <div>
@@ -36,13 +36,15 @@
         </div>
         <div class="w-66 pl5 pr3 borderbox cont-half-cont">
             <div class="description">
-                <h2>about</h2>
-                <p>Jordan Ellis Furr is an xxxtra multi passionate creator! He would love to hear from you to discuss, become penpals, collaborate, dream up a website, or something else. Please don't hesitate to send him an email.</p>
-                <p>jordan@jordanfurr.com</p>
+                <h2>Invitation to Interact</h2>
+                <div class="j-list">
+                    <a href="/img/Oscars2025Checklist.pdf" class="word-link" target="_" download><p>Oscars 2025 Checklist & Questions</p></a>
+                </div>
+
             </div>
         </div>
         <div class="about-btn">
-            <nuxt-link to="/about" class="word-link about" exact-active-class="active">
+            <nuxt-link to="/about" class="word-link">
                 <p>about</p>
             </nuxt-link>
         </div>

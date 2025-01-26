@@ -40,11 +40,12 @@
                 <p>Jordan has launched and collaborated on a variety of projects.</p>
                 <p class="subtitle">FEATURED</p>
                 <div class="j-list">
-                    <p>STAR Laces</p>
-                    <p>SAMEWAVE7</p>
+                    <nuxt-link to="/iti" class="word-link"><p>Invitation to Interact</p></nuxt-link>
+                    <nuxt-link to="https://starlaces.org/" class="word-link"><p>STAR Laces</p></nuxt-link>
+                    <p>Samewave 7</p>
                     <p>Green Butterfly</p>
                 </div>
-                
+
             </div>
         </div>
         <div class="about-btn">
