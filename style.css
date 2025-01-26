@@ -790,6 +790,7 @@ h5 {
 
 .word-link:hover {
     text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 .active {
@@ -915,6 +916,10 @@ a:hover {
     margin-bottom: 0.25rem;
 }
 
+.j-list a {
+    color: black;
+}
+
 .news-dash p {
     margin-bottom: 0;
 }
@@ -949,7 +954,7 @@ a:hover {
 @media (min-width: 1000px) {
     .news-dash {
         overflow-y: scroll;
-        height: 131.194px;
+        height: 262.388px;
         width: 100%;
         border-top: 2px solid #295f9c;
         border-bottom: 2px solid #295f9c;
