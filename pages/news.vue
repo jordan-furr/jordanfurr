@@ -40,8 +40,8 @@
                 <div class="flex flex-col news-dash">
                     <div v-for="(news, index) in newsArray" :key="index" class="news-row"
                         :class="{ 'last-row': index === newsArray.length - 1 }">
-                        <p class="news-item" @mouseover="toggleHover(index)" :class="{ 'hovered': hoverIndex === index }"
-                            @mouseleave="handleMouseLeaveWeb(index)">
+                        <p class="news-item" @mouseover="toggleHover(index)"
+                            :class="{ 'hovered': hoverIndex === index }" @mouseleave="handleMouseLeaveWeb(index)">
                             {{ hoverIndex === index ? news[1] : news[0] }}
                         </p>
                     </div>
@@ -68,6 +68,8 @@ export default {
             hoverIndex: -1,
             isOpen: new Array(6).fill(false),
             newsArray: [
+                ["Feb 1, 2025", "Jordan is in love with Berlin."],
+                ["Jan 30, 2025", "Jordan arrived in Berlin!"],
                 ["Jan 26, 2025", "Jordan posted the first 'Invitation to Interact'. Check the database to explore."],
                 ["Jan 23, 2025", "Jordan is now blond."],
                 ["Jan 2, 2025", "Jordan is in Austria."],

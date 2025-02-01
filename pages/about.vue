@@ -37,7 +37,7 @@
         <div class="w-66 pl5 pr3 borderbox cont-half-cont">
             <div class="description">
                 <h2>about</h2>
-                <p>Jordan Ellis Furr is an xxxtra multi passionate creator! He would love to hear from you to discuss, become penpals, collaborate, dream up a website, or something else. Please don't hesitate to send him an email.</p>
+                <p>Jordan Ellis Furr is an xxxtra multi & passionate creator! Based in Berlin, he creates web art, websites, essays, textiles, videos, and more. He would love to hear from you to discuss, become penpals, collaborate, dream up a website, or something else. Please don't hesitate to send him an email.</p>
                 <p>jordan@jordanfurr.com</p>
             </div>
         </div>

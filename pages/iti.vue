@@ -38,7 +38,7 @@
             <div class="description">
                 <h2>Invitation to Interact</h2>
                 <div class="j-list">
-                    <a href="/img/Oscars2025Checklist.pdf" class="word-link" target="_" download><p>Oscars 2025 Checklist & Questions</p></a>
+                    <a href="/Oscars2025Checklist.pdf" class="word-link" download=""><p>Oscars 2025 Checklist & Questions</p></a>
                 </div>
 
             </div>
