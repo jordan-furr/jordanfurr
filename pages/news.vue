@@ -68,17 +68,20 @@ export default {
             hoverIndex: -1,
             isOpen: new Array(6).fill(false),
             newsArray: [
+                ["Sep 17, 2025", "Jordan published a new website for Samewave"],
+                ["Sep 14, 2025", "Jordan published a new website for drink-wall"],
+                ["Aug 28, 2025", "Jordan moved back to Brooklyn."],
+                ["Jul 29, 2025", "Jordan set a new PR in the 10K: 44:57."],
+                ["Jul 1, 2025", "Jordan is visiting home (France) for the summer."],
+                ["Jun 28, 2025", "Jordan is in NYC for pride weekend."],
+                ["May 2, 2025", "Jordan is in Salt Lake City, Utah."],
                 ["Feb 1, 2025", "Jordan is in love with Berlin."],
                 ["Jan 30, 2025", "Jordan arrived in Berlin!"],
-                ["Jan 26, 2025", "Jordan posted the first 'Invitation to Interact'. Check the database to explore."],
-                ["Jan 23, 2025", "Jordan is now blond."],
+                ["Jan 23, 2025", "Jordan is blond."],
                 ["Jan 2, 2025", "Jordan is in Austria."],
                 ["Dec 24, 2024", "Jordan ran his first 10k at 49:04."],
                 ["Nov 30, 2024", "Jordan went to the movies by himself for the first time."],
-                ["Nov 25, 2024", "Jordan completed this news tool!"],
-                ["Nov 24, 2024", "Jordan is rewatching the series, Pose."],
-                ["Nov 23, 2024", "Jordan completed his star animation."],
-                ["Nov 10, 2024", "Jordan is now based in Paris, France."]
+                ["Nov 25, 2024", "Jordan completed this news tool!"]
             ]
         };
     },

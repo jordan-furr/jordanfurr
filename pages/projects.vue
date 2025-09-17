@@ -37,12 +37,13 @@
         <div class="w-66 pl5 pr3 borderbox cont-half-cont">
             <div class="description">
                 <h2>projects</h2>
-                <p>Jordan has launched and collaborated on a variety of projects.</p>
+                <p>Jordan collaborates on a variety of projects.</p>
                 <p class="subtitle">FEATURED</p>
                 <div class="j-list">
                     <!--<nuxt-link to="/iti" class="word-link"><p>Invitation to Interact</p></nuxt-link>-->
-                    <nuxt-link to="https://starlaces.org/" class="word-link"><p>STAR Laces</p></nuxt-link>
-                    <p>Samewave 7</p>
+                    <nuxt-link to="https://drink-wall.com/" class="word-link" target="_"><p>drink-wall</p></nuxt-link>
+                    <nuxt-link to="https://starlaces.org/" class="word-link" target="_"><p>STAR Laces</p></nuxt-link>
+                    <nuxt-link to="https://samewave7.com/" class="word-link" target="_"><p>SAMEWAVE 7</p></nuxt-link>
                     <p>Green Butterfly</p>
                 </div>
 
